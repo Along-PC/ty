@@ -1,0 +1,51 @@
+{
+    "version": "2.0.0",
+    "warning": "请不要修改这个文件中的内容",
+    "project": {
+        "projectId": 105741
+    },
+    "application": {
+        "appId": 105174,
+        "platform": "",
+        "packageId": "com.tourye.zhong"
+    },
+    "services": {
+        "analytics": {
+            "appKey": "Aqcloud105174",
+            "enable": true,
+            "appId": "105174",
+            "strategy": 1,
+            "minBatchReportCount": "30",
+            "sendPeriodMillis": 10800000,
+            "smartReporting": false,
+            "sessionTimeoutMillis": 30000,
+            "autoTrackPageEvents": true,
+            "multiProcess": true
+        },
+        "messaging": {
+            "appId": "2100315602",
+            "appKey": "A43HG3I42WMA",
+            "huaweiAppId": "",
+            "xiaomiAppId": "",
+            "xiaomiAppKey": "",
+            "meizuAppId": "",
+            "meizuAppKey": "",
+            "autoStart": true
+        },
+        "crash": {
+            "appId": "29f36bc1c9",
+            "enable": true,
+            "consolelogEnable": false,
+            "reportDelay": 1000,
+            "nativeCrash": true,
+            "ANRCrash": true
+        },
+        "payment": {
+            "offerId": "TC105174"
+        },
+        "storage": {
+            "bucket": "tac-tourye-st-1257239018",
+            "region": "ap-beijing"
+        }
+    }
+}

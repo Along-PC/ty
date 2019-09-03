@@ -1,0 +1,13 @@
+<resources>
+
+    <!--启动页主题-->
+    <style name="MainTheme" parent="TYTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowBackground">@drawable/icon_splash_back</item>
+
+    </style>
+
+
+</resources>
